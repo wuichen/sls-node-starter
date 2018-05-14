@@ -5,8 +5,7 @@
   "main": "handler.js",
   "scripts": {
     "test": "jest",
-    "install-db": "serverless dynamodb install",
-    "setup-api": "serverless dynamodb install && serverless offline start"
+    "setup-api": "serverless offline start"
   },
   "author": "",
   "license": "MIT",

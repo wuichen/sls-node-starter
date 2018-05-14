@@ -1,0 +1,3 @@
+instructions
+
+* sls dynamodb install
