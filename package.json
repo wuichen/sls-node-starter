@@ -4,7 +4,9 @@
   "description": "A Node.js starter for the Serverless Framework with async/await and unit test support",
   "main": "handler.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "install-db": "serverless dynamodb install",
+    "setup-api": "serverless dynamodb install && serverless offline start"
   },
   "author": "",
   "license": "MIT",
